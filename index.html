@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio - Desarrollador Full Stack</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <i class="fas fa-code"></i>
+                    <span>Portfolio</span>
+                </a>
+            </div>
+            
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li><a href="about.html" class="nav-link">Sobre Mí</a></li>
+                <li><a href="projects.html" class="nav-link">Proyectos</a></li>
+                <li><a href="contact.html" class="nav-link">Contacto</a></li>
+            </ul>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hola, soy Luis Solano
+                </h1>
+                <h2 class="hero-subtitle">Desarrollador Full Stack</h2>
+                <p class="hero-description">
+                    Creo experiencias digitales increíbles combinando diseño moderno 
+                    con código limpio y eficiente. Especializado en React, Node.js y tecnologías web modernas.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">Ver Proyectos</a>
+                    <a href="contact.html" class="btn btn-secondary">Contactarme</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-container">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="floating-item" data-tech="React">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <div class="floating-item" data-tech="JavaScript">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="floating-item" data-tech="Node.js">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <div class="floating-item" data-tech="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Tecnologías</h2>
+                <p class="section-subtitle">Las herramientas que domino</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript ES6+</li>
+                        <li>React.js</li>
+                        <li>Vue.js</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Herramientas</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="featured-projects" id="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-subtitle">Algunos de mis trabajos más recientes</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce App</h3>
+                        <p>Aplicación completa de comercio electrónico con React y Node.js</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager</h3>
+                        <p>Aplicación de gestión de tareas con funciones avanzadas</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Python</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Analytics Dashboard</h3>
+                        <p>Dashboard interactivo para visualización de datos</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>D3.js</span>
+                            <span>Express</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-cta">
+                <a href="projects.html" class="btn btn-primary">Ver Todos los Proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Luis Solano</h3>
+                    <p>Desarrollador Full Stack apasionado por crear soluciones innovadoras</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="about.html">Sobre Mí</a></li>
+                        <li><a href="projects.html">Proyectos</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Sígueme</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Alex Rivera. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CSS Styles (styles.css) -->
+    <style>
+        /* Reset and Base Styles */
+        
+    </style>
+
+    <!-- Responsive CSS (responsive.css) -->
+    <style>
+        /* Responsive Design */
+        
+    </style>
+
+    <!-- JavaScript (script.js) -->
+    <script>
+        // Navigation functionality
+        
+    </script>
+
+    <!-- Additional Pages Structure -->
+    
+    <!-- ABOUT.HTML Content Template -->
+    
+
+    <!-- PROJECTS.HTML Content Template -->
+    <div style="display: none;" id="projects-page-template">
+        <section class="projects-hero">
+            <div class="container">
+                <h1>Mis Proyectos</h1>
+                <p>Una colección de mis trabajos más destacados</p>
+            </div>
+        </section>
+        
+        <section class="projects-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile</button>
+                    <button class="filter-btn" data-filter="backend">Backend</button>
+                </div>
+            </div>
+        </section>
+        
+        <section class="all-projects">
+            <div class="container">
+                <div class="projects-grid">
+                    <!-- Projects will be loaded here dynamically -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CONTACT.HTML Content Template -->
+    <div style="display: none;" id="contact-page-template">
+        <section class="contact-hero">
+            <div class="container">
+                <h1>Contáctame</h1>
+                <p>¿Tienes un proyecto en mente? ¡Hablemos!</p>
+            </div>
+        </section>
+        
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Información de Contacto</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>alex.rivera@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+51 123 456 789</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Ubicación</h4>
+                                <p>Lima, Perú</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" onsubmit="handleContactForm(event)">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" placeholder="Asunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
